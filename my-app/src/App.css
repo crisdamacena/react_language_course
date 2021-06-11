@@ -1,0 +1,111 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body {
+  height: 100vh;
+  margin: 0;
+	font-size: 62,5%;
+  font-family: 'Lato', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+h2{
+  padding: 2% 10%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  font-size: 1.8em;
+}
+form{
+  background-color: #fff;
+  border: 1px solid #022545;
+  padding: 10%;
+  box-shadow:
+  0 2.8px 2.2px rgba(255, 255, 255, 0.02),
+  0 6.7px 5.3px rgba(255, 255, 255, 0.028),
+  0 12.5px 10px rgba(255, 255, 255, 0.035),
+  0 22.3px 17.9px rgba(255, 255, 255, 0.042),
+  0 41.8px 33.4px rgba(255, 255, 255, 0.05),
+  0 100px 80px rgba(255, 255, 255, 0.04);
+}
+.botaotitulo{
+  margin-right: 20%;
+}
+.language{
+  background: rgba(255, 0, 0, 0.356) url(./pattern.png);
+  background-size: 120%;
+  z-index: 10;
+  height: 100vh;;
+}
+.hero{
+  background: rgb(2, 37, 69, 0.9);
+  border-right: 60px solid #fff;
+  z-index: 10;
+  height: 100vh;
+}
+.hero .titulo{
+  margin-top: 28%;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.hero .subtitulo{
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.hero .botaotitulo{
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.titulo{
+  font-family: 'Alfa Slab One', cursive;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 400;
+}
+.form{
+  background: #022545;
+  border-top: 60px solid #fff;
+  height: 100vh;
+}
+.tituloform{
+  padding-top: 15%;
+  text-align: center;
+}
+.column1 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 100vh; /* Should be removed. Only for demonstration */
+}
+.column2 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 100vh; /* Should be removed. Only for demonstration */
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;  
+}
+header .row{
+  background: url(./photo.jpg);
+  background-size: cover;
+  background-position: center;
+}
