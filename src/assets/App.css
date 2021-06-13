@@ -25,7 +25,7 @@ h2{
   color: #fff;
   font-size: 1.8em;
 }
-form{
+.estiloform{
   background-color: #fff;
   border: 1px solid #022545;
   padding: 10%;
@@ -41,7 +41,7 @@ form{
   margin-right: 20%;
 }
 .language{
-  background: rgba(255, 0, 0, 0.356) url(./pattern.png);
+  background: rgba(255, 0, 0, 0.356) url(../pattern.png);
   background-size: 120%;
   z-index: 10;
   height: 100vh;;
@@ -105,7 +105,7 @@ form{
   clear: both;  
 }
 header .row{
-  background: url(./photo.jpg);
+  background: url(../photo.jpg);
   background-size: cover;
   background-position: center;
 }
